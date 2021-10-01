@@ -5,7 +5,9 @@
   "scripts": {
     "nx": "nx",
     "start": "nx serve",
+    "start-login": "nx run login:serve",
     "build": "nx build",
+    "build-ui": "nx build shared-ui --prod",
     "test": "nx test",
     "lint": "nx workspace-lint && nx lint",
     "e2e": "nx e2e",
@@ -67,6 +69,7 @@
     "eslint-plugin-cypress": "^2.10.3",
     "jest": "27.0.3",
     "jest-preset-angular": "9.0.4",
+    "ng-packagr": "^12.1.0",
     "prettier": "^2.3.1",
     "ts-jest": "27.0.3",
     "ts-node": "~9.1.1",

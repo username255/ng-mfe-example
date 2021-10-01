@@ -1,0 +1,7 @@
+<ui-card *ngIf="content">
+  <ui-pre [content]="content"></ui-pre>
+  <br>
+  <ui-pre *ngIf="sharedServiceValue" [content]="sharedServiceValue | json"></ui-pre>
+</ui-card>
+
+<button (click)="updateSharedState()">update shared state</button>

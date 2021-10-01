@@ -22,10 +22,11 @@ import { UserService } from '@ng-mfe/shared/data-access-user';
   styles: [
     `
       .login-app {
-        width: 30vw;
-        border: 2px dashed black;
-        padding: 8px;
-        margin: 0 auto;
+        width: 640px;
+        border: 1px solid black;
+        border-radius: 6px;
+        padding: 16px;
+        margin: 32px auto 12px;
       }
       .login-form {
         display: flex;
@@ -33,6 +34,7 @@ import { UserService } from '@ng-mfe/shared/data-access-user';
         flex-direction: column;
         margin: 0 auto;
         padding: 8px;
+        gap: 8px;
       }
       label {
         display: block;

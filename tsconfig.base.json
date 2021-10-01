@@ -17,6 +17,10 @@
     "paths": {
       "@ng-mfe/shared/data-access-user": [
         "libs/shared/data-access-user/src/index.ts"
+      ],
+      "@shared-ui-demo-sdasdasdads": ["libs/shared/ui/src/index.ts"],
+      "shared-data-dsaasdsadasadasd": [
+        "libs/shared-data/src/index.ts"
       ]
     }
   },

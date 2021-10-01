@@ -1,0 +1,9 @@
+<ui-card>
+  <h2>{{ title }}</h2>
+  <p>
+    brown fox..
+  </p>
+  <ui-pre *ngIf="sharedServiceValue" [content]="sharedServiceValue | json"></ui-pre>
+</ui-card>
+
+<button (click)="updateSharedState()">update shared state</button>
